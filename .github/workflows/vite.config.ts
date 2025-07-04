@@ -8,3 +8,10 @@ export default defineConfig({
   },
   base: '/', // base must be '/'
 });
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
